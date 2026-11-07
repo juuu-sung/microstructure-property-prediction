@@ -1,0 +1,1205 @@
+{
+  "scope": "Byte-identical research source snapshot; no raw data, weights or run caches.",
+  "files": [
+    {
+      "path": "scripts/audit_boundary_measurements_v2.py",
+      "sha256": "ca53b2f156f63003d6da6b8a441e96887027c25307b44f563375f4d439705c0a",
+      "bytes": 14718
+    },
+    {
+      "path": "scripts/audit_boundary_quality_v3.py",
+      "sha256": "66741d436a05cb3cd7e89f9ab1cf7b41f0c857ab11907258e71910a159cb9575",
+      "bytes": 15683
+    },
+    {
+      "path": "scripts/audit_common_failures.py",
+      "sha256": "9de1398e19cbc179f3de38f3b55ce7fafae7fa15f0e115cc352179ba3f371fab",
+      "bytes": 11215
+    },
+    {
+      "path": "scripts/audit_data.py",
+      "sha256": "8b1afcea22b9263b68573ac03477ffcde55407b973ea35eea423f462c2275a06",
+      "bytes": 9867
+    },
+    {
+      "path": "scripts/audit_micronet_next_direction.py",
+      "sha256": "401228c42c588b590b99cc6b37281010e024377755a5dba2a933235c9ca35209",
+      "bytes": 7685
+    },
+    {
+      "path": "scripts/audit_model_portfolio.py",
+      "sha256": "cebb116f096b0d88afb65289cb72c0b77e607c0455576151fd06cf8e53dbae16",
+      "bytes": 10714
+    },
+    {
+      "path": "scripts/audit_post_scattering_strategy.py",
+      "sha256": "122794f39ecbdc46ef18726070831bf9d282a4bf98e32d63148211bb6fe68ef8",
+      "bytes": 8957
+    },
+    {
+      "path": "scripts/audit_structure_measurements.py",
+      "sha256": "35a066dd1045db8118c922e20892d38bd4d8bc2d922c9d0b75b436cc1900221f",
+      "bytes": 16645
+    },
+    {
+      "path": "scripts/auto_structure_review.html",
+      "sha256": "4f9f3464b9f4b11d815086a540f1003e58f60c237f0f24c1f4fc254d6a75cdb7",
+      "bytes": 8506
+    },
+    {
+      "path": "scripts/auto_structure_review.py",
+      "sha256": "d958a6c326a8a1525fe44f7c6ce63e8bee0762cd0ab1866e561f6fdc7d777254",
+      "bytes": 12604
+    },
+    {
+      "path": "scripts/benchmark_models.py",
+      "sha256": "6b1d51485f2fb4c9fc448243febccdff7dc9f91e4f00a9c1079e5672f82b1483",
+      "bytes": 12384
+    },
+    {
+      "path": "scripts/check_cradio_spatial.py",
+      "sha256": "40e7bafd1abdb3d455dd9a48797c2ec63f3bd70d19f6dda0abdad1fa00749efe",
+      "bytes": 5455
+    },
+    {
+      "path": "scripts/check_mitra_raw486_math.py",
+      "sha256": "118fc5132cb97d1b9f8337626927627c36e73584efbeb25e0317bb66b81cb553",
+      "bytes": 3999
+    },
+    {
+      "path": "scripts/convnext_experiment.py",
+      "sha256": "ddc33b004144a15905c2cba42662556ec0d8743f34155c21849e82f513e08488",
+      "bytes": 39200
+    },
+    {
+      "path": "scripts/cradio_fisher_engine.py",
+      "sha256": "006118dae0265494fabbbae728c3391d0fdbb9eb5cc450a274379edec26bf587",
+      "bytes": 8033
+    },
+    {
+      "path": "scripts/cradio_fisher_experiment.py",
+      "sha256": "ea7b01b472cf7bc26669fa6832b93f515155ee9d678340dc4ee5f6509afb3dfa",
+      "bytes": 28820
+    },
+    {
+      "path": "scripts/cradio_spatial_engine.py",
+      "sha256": "faf4527dd4bea7b3a0dea8d2eb4750d8a28c15750c5a9aeb9565144a8c29664e",
+      "bytes": 11275
+    },
+    {
+      "path": "scripts/cradio_spatial_experiment.py",
+      "sha256": "77910fbe01a32429bc8dfd96b046de44d91d2f724178b5a0c838bf63ecb02377",
+      "bytes": 22906
+    },
+    {
+      "path": "scripts/cradiov4_assets.lock.json",
+      "sha256": "eb312ecb993348e02bcd15d4c18238c35377a5c130470fb340f70667d8ecd310",
+      "bytes": 4757
+    },
+    {
+      "path": "scripts/cradiov4_confirmation.py",
+      "sha256": "5760e5fa0d25da74a7bad4972bdae25a97636d0c242275ebaa1cf74b99f1d5b6",
+      "bytes": 23127
+    },
+    {
+      "path": "scripts/cradiov4_engine.py",
+      "sha256": "52eb7b4ba14b558429e13f430e409b9d58f414c7dddaca04670c4bbded08865e",
+      "bytes": 6510
+    },
+    {
+      "path": "scripts/cradiov4_experiment.py",
+      "sha256": "1c5367245ef4dfdf0fad1d7bc6693a20ce6bc0e550cd42c6c05b638e31a6780d",
+      "bytes": 23448
+    },
+    {
+      "path": "scripts/cradiov4_h_assets.lock.json",
+      "sha256": "3148ac44ab6b05116b39a5d35380daae54c2bd111429db6bd133d8d305d2c982",
+      "bytes": 6989
+    },
+    {
+      "path": "scripts/cradiov4_h_d4_experiment.py",
+      "sha256": "6f0163d6cad139b111699eb97ca630c51a05571bd7eeb10ae8f96911a30d1dfa",
+      "bytes": 19606
+    },
+    {
+      "path": "scripts/cradiov4_h_engine.py",
+      "sha256": "de5c60860a22e72ff08c9daa72fa080f4faecbc3f72ba522269bd563580e9480",
+      "bytes": 3396
+    },
+    {
+      "path": "scripts/diagnose_training.py",
+      "sha256": "b644f0879f788350a96bad367661d17227cf7e31eba6021460d0d82d3798a876",
+      "bytes": 5731
+    },
+    {
+      "path": "scripts/dinov2_factorial_engine.py",
+      "sha256": "58df50318b3ed91927e70c75f72484dda1828cffdf867f8ab5184aa0e07f8929",
+      "bytes": 7376
+    },
+    {
+      "path": "scripts/dinov2_factorial_experiment.py",
+      "sha256": "ea4c68e1acc728ca7ed5ed9c8695dba901245a1fde295288d3e58883b3a1ed01",
+      "bytes": 29115
+    },
+    {
+      "path": "scripts/dinov2_large_register_assets.lock.json",
+      "sha256": "81355c26392edd8c2d4646f172b21fcc27db0e44bf1c5d5597077b398e0fcf7c",
+      "bytes": 661
+    },
+    {
+      "path": "scripts/dinov2_large_register_d4_experiment.py",
+      "sha256": "b812e7396171d2728c3bc57a973fbbcd3f319e87fbfc118cb11ce63ee6adc07b",
+      "bytes": 20242
+    },
+    {
+      "path": "scripts/dinov2_large_register_engine.py",
+      "sha256": "674726dddbae4792ccf19c6918ef0aa57bdd0aa41545d8830e79430ee0abd3da",
+      "bytes": 3389
+    },
+    {
+      "path": "scripts/dinov3_large_assets.lock.json",
+      "sha256": "f8a928c1d879ee7908b873eb23274e0b036db97c514da83146f088106e58ea62",
+      "bytes": 907
+    },
+    {
+      "path": "scripts/dinov3_large_engine.py",
+      "sha256": "79725f28af5266ef79d6b87b59317ff6af917c661c2ba4e5b47b8713185189e5",
+      "bytes": 3234
+    },
+    {
+      "path": "scripts/dinov3_large_experiment.py",
+      "sha256": "a67a8169ec6523861de9c36e6f7ae51e5d6a23dcd9296b945402bbb10a636a12",
+      "bytes": 21940
+    },
+    {
+      "path": "scripts/drunet_large518_experiment.py",
+      "sha256": "4e52c2efcf6beb7c9d85049a515ed1cc71fb26d7c6776ef72aa4d16820e18ef4",
+      "bytes": 19921
+    },
+    {
+      "path": "scripts/drunet_restoration.py",
+      "sha256": "5a70f64fe1f3687f3f93730fa6d17bad1d5b58ce2993591c1522a39e35c97817",
+      "bytes": 6923
+    },
+    {
+      "path": "scripts/efficientnet_micronet_experiment.py",
+      "sha256": "7a22c8cfae85953a0b86b8a68a74619fb7fcaa3b8ac25eceaec8a0b0cd32a37b",
+      "bytes": 32810
+    },
+    {
+      "path": "scripts/evaluate_boundary_tabpfn.py",
+      "sha256": "d8cf633791aee5dbdba45e86e67cbde7421b986149f3f71481e6fb3707361721",
+      "bytes": 26965
+    },
+    {
+      "path": "scripts/evaluate_dinov2_d4.py",
+      "sha256": "a7e8519733365d5435c17357b7f3c724000d1a8e0bba79a3a1967f6d86095fdd",
+      "bytes": 14779
+    },
+    {
+      "path": "scripts/evaluate_dinov2_kernel.py",
+      "sha256": "3d76d2374ca3e2d64efc1b4545154ebc85bd4da8909f7941bb39164b5db82b08",
+      "bytes": 19961
+    },
+    {
+      "path": "scripts/evaluate_dinov2_large518_confirmation.py",
+      "sha256": "8caff8a7a9d4f8a152a3eeb7e1f9fbf3f5b6c09c3de62bdbd8ef3b4426955acf",
+      "bytes": 21657
+    },
+    {
+      "path": "scripts/evaluate_dinov2_learning_curve.py",
+      "sha256": "b40e4f30c40b20f7035336f44262ca29d908f202c564d783c3eac4a7ff144063",
+      "bytes": 29974
+    },
+    {
+      "path": "scripts/evaluate_dinov2_spatial.py",
+      "sha256": "9ea0e48a6d60a4d08825ae644ace794e2c6e2b07e8732fe938e44d4165fb5de9",
+      "bytes": 12447
+    },
+    {
+      "path": "scripts/evaluate_feature_fusion.py",
+      "sha256": "521e2e7df5781b4b1ea16b2d65cb036affdf935a8210d6a4ac77d84b0e51ca89",
+      "bytes": 25537
+    },
+    {
+      "path": "scripts/evaluate_frozen_dinov2.py",
+      "sha256": "0c6e8f9a588979700ff3787ab1eecfe63a62240601c080793a004d1a14a0b3bc",
+      "bytes": 20988
+    },
+    {
+      "path": "scripts/evaluate_frozen_resnet.py",
+      "sha256": "895bd8d47451b8c6d29a88b429735f8d5a147fac04717ee926c7e09f0c818a55",
+      "bytes": 30742
+    },
+    {
+      "path": "scripts/evaluate_local_structure.py",
+      "sha256": "a1891f2589ab52bbc04b466a37be7d73d46a49fd69d9238a282856d28a93bc3f",
+      "bytes": 17500
+    },
+    {
+      "path": "scripts/evaluate_local_structure_confirmation.py",
+      "sha256": "7a08a89dbfa5fc3d86d687198603100f40a2309575fb51eaa9492f0c6d85f84d",
+      "bytes": 21892
+    },
+    {
+      "path": "scripts/evaluate_micronet_tabpfn.py",
+      "sha256": "085d93466fcff8daf9690ac2dd7023d9a6503542291111313acb8e9dc82b607d",
+      "bytes": 25545
+    },
+    {
+      "path": "scripts/evaluate_morphology.py",
+      "sha256": "c62981ada1b25dab79fe55b5d20d429f1a6c161a078df261cd2ecd7684d049f6",
+      "bytes": 19093
+    },
+    {
+      "path": "scripts/evaluate_refined_structure.py",
+      "sha256": "fd05cd9161994ef69cf4efc3deaf389d0eb4df83fe8ade30f25b2bbd2528ec22",
+      "bytes": 23184
+    },
+    {
+      "path": "scripts/evaluate_resnet_d4.py",
+      "sha256": "215b8855ab2393835699bf23c4ccaaa6faca8413356bd200e55d348d67a8c747",
+      "bytes": 21366
+    },
+    {
+      "path": "scripts/evaluate_scattering_tabpfn.py",
+      "sha256": "739384d1cb313acfe3c32f81758e0804bd5c260a946d6392596def30ce56e045",
+      "bytes": 21982
+    },
+    {
+      "path": "scripts/evaluate_scattering_tabpfn_confirmation.py",
+      "sha256": "3038c7f7bdf95518b9f631eb92ce8aa36e91715f5c57e61186b801d31098b698",
+      "bytes": 16152
+    },
+    {
+      "path": "scripts/evaluate_tabicl_comparison.py",
+      "sha256": "76462ca504d29eabf16bb1378f44ec5213698cc538d68972574a0738eac7546c",
+      "bytes": 28022
+    },
+    {
+      "path": "scripts/evaluate_tabpfn_v2.py",
+      "sha256": "97a342dd62946d887f0df231ab75cbe90a72f749c92744c6553c9e980aa40b8b",
+      "bytes": 25631
+    },
+    {
+      "path": "scripts/evaluate_tabpfn_v2_confirmation.py",
+      "sha256": "95233e3b9bb5efcb1fa9254e2be3ffe9b94d79d9cee43adde13c61f539e562aa",
+      "bytes": 18737
+    },
+    {
+      "path": "scripts/extract_dinov2_d4.py",
+      "sha256": "4d4ecb0bbca288174c99d038dc67674cbf3b613aa3e3104cd4b250f16b853082",
+      "bytes": 14405
+    },
+    {
+      "path": "scripts/extract_dinov2_prefix.py",
+      "sha256": "657d2a8116aa8945cabb1328dbdaa29029839ebac6ecfbe6f9753cf6e3c23822",
+      "bytes": 10721
+    },
+    {
+      "path": "scripts/extract_dinov2_spatial.py",
+      "sha256": "9e5d3fca71c6381c612e9179557f2ac7855569d33c3e53bbdb3b2ca249a55faf",
+      "bytes": 16642
+    },
+    {
+      "path": "scripts/extract_frozen_dinov2.py",
+      "sha256": "3defb20f8d716b4aeacc66d03a9492e8ca957e3bd588fd60729fdd2c58caa338",
+      "bytes": 19802
+    },
+    {
+      "path": "scripts/extract_frozen_resnet.py",
+      "sha256": "e488ab2f4118485998aac11d9e9257b65480a54271c6ffd53c06e5d85579e267",
+      "bytes": 25413
+    },
+    {
+      "path": "scripts/extract_local_structure.py",
+      "sha256": "cf3619571add4e3bb5124333452a66a8336561456e76b4329fefc7f149b706b9",
+      "bytes": 14978
+    },
+    {
+      "path": "scripts/extract_morphology.py",
+      "sha256": "ceddcd8f19055c5635a0544b8a191e80c1af9a253883696b94d207b7f5391e3d",
+      "bytes": 15260
+    },
+    {
+      "path": "scripts/extract_resnet_d4.py",
+      "sha256": "33fd2bdc12137afd26a649ce56985cf00c85ee3f57e4b619636909a821b4d496",
+      "bytes": 17073
+    },
+    {
+      "path": "scripts/final_cradiov4_submission.py",
+      "sha256": "a6b6f7a48a315edc07e0231b28738de49b0784ce65cc990a3fd75bfc1173bb76",
+      "bytes": 24072
+    },
+    {
+      "path": "scripts/final_large518_submission.py",
+      "sha256": "496b9f3b72d454cb060a41b980e2bb8ea0f553b9af9af398334fad4ae29866da",
+      "bytes": 22963
+    },
+    {
+      "path": "scripts/final_large_radio_d4_submission.py",
+      "sha256": "7522f62fd879561b0007c47d4d8ead9be80002f65cd19a8bc2ff23f34f6cc704",
+      "bytes": 24003
+    },
+    {
+      "path": "scripts/final_scattering_submission.py",
+      "sha256": "230d9e1bdb3edfba8f226ab5523bb37e7660be3f0bdb301dcd1ee507b661f415",
+      "bytes": 19653
+    },
+    {
+      "path": "scripts/final_submission.py",
+      "sha256": "45f5f9c852b68c3ef3a11bb6e3f7fd1e8b5b107edb815696b32cbf79031ba40a",
+      "bytes": 27730
+    },
+    {
+      "path": "scripts/final_tabpfn_submission.py",
+      "sha256": "95729086b99cf307bdf0484579f3cefc6c25e6167470b13226f63ffe61e2aab9",
+      "bytes": 19921
+    },
+    {
+      "path": "scripts/gray_cnn_engine.py",
+      "sha256": "24caaac51d38275f0db3468fe2701a8c4e51233d632d28b488a008f219f5d2eb",
+      "bytes": 11246
+    },
+    {
+      "path": "scripts/gray_cnn_experiment.py",
+      "sha256": "ac0b00be14ea279a8a422e92cc2a7a2d5c4dc51078f5a41d260b8780183eb285",
+      "bytes": 22063
+    },
+    {
+      "path": "scripts/large_radio_d4_engine.py",
+      "sha256": "cd68250ac129687da5a0137d07dbc6546e3863206d38090f52ebf53d4c6be68c",
+      "bytes": 3802
+    },
+    {
+      "path": "scripts/large_radio_d4_experiment.py",
+      "sha256": "93b475e0d2b701a4048431d6d173fb1290341c0a191b91586403c15e82ff7e63",
+      "bytes": 22176
+    },
+    {
+      "path": "scripts/micronet_adapter_engine.py",
+      "sha256": "f9597f706135c43de02006285af520057f4fd991438cd1a605b9778cc9ae1cf4",
+      "bytes": 14430
+    },
+    {
+      "path": "scripts/micronet_adapter_experiment.py",
+      "sha256": "6b6d5724032aa244f796aad267bc4cb1259e8e833b37c9b91ea1a7d723a55eba",
+      "bytes": 26839
+    },
+    {
+      "path": "scripts/micronet_finetune_80_engine.py",
+      "sha256": "be8da257e0baea9381e9eaebe61545ca83d82131ca2c8551c01f30222e230483",
+      "bytes": 12825
+    },
+    {
+      "path": "scripts/micronet_finetune_80_experiment.py",
+      "sha256": "2a49d38604e156bc6df81f3f963eaa9c7c3a84027948b758b8239dcb5a457391",
+      "bytes": 30645
+    },
+    {
+      "path": "scripts/micronet_finetune_engine.py",
+      "sha256": "78359e4415d6d7ce605cdfb405b301931cce51df3d8349838dfff54287511d0d",
+      "bytes": 12328
+    },
+    {
+      "path": "scripts/micronet_finetune_experiment.py",
+      "sha256": "f8174e7c9258726064ce79482035cf76c992118c309fe364a90cd7721e969677",
+      "bytes": 23464
+    },
+    {
+      "path": "scripts/micronet_mim_engine.py",
+      "sha256": "f391b1d7f187abb12517ed95873d9c9da7e5cb718460687a3fa3ef5b4e1a2288",
+      "bytes": 13125
+    },
+    {
+      "path": "scripts/micronet_mim_experiment.py",
+      "sha256": "e8d7e4adc06e67a9362702bdd410f92f70d04efec0c60fd235eef9cc799435b7",
+      "bytes": 28435
+    },
+    {
+      "path": "scripts/micronet_multiview_experiment.py",
+      "sha256": "ffa68c941c277de6b10178c0056f841461b9d8f79d10541078d34cdddd92ada2",
+      "bytes": 38297
+    },
+    {
+      "path": "scripts/mitra_v2_assets.lock.json",
+      "sha256": "fa371f7d188fe69c9e582545677928e006589acb1f65f731452bf545168f7c32",
+      "bytes": 2959
+    },
+    {
+      "path": "scripts/mitra_v2_assets.py",
+      "sha256": "9693ca42c93a6815ab79b017b4a5b99c272bf5ecbb8aa5f9f8ccc6617eccd0ab",
+      "bytes": 1705
+    },
+    {
+      "path": "scripts/mitra_v2_engine.py",
+      "sha256": "f33a2cf9542b76a26f3c32bcb9b8d4d97b642ea60b82d37db21bda07ff679fb6",
+      "bytes": 1727
+    },
+    {
+      "path": "scripts/mitra_v2_experiment.py",
+      "sha256": "8397cc5021fe07de69d735f3f846c61fee6f05f0c3fa59fde795b5b18c4200c0",
+      "bytes": 18280
+    },
+    {
+      "path": "scripts/mitra_v2_memory_guard.py",
+      "sha256": "a31b8c9fff8287b896abddff0d840864cf6f04e12ec9bee97e0a7e868e593917",
+      "bytes": 4092
+    },
+    {
+      "path": "scripts/mitra_v2_raw486_experiment.py",
+      "sha256": "e78a6ff697b41845fdc42b2794db49fdef0890415e878aded73a87f186cac282",
+      "bytes": 16545
+    },
+    {
+      "path": "scripts/mitra_v2_raw486_runtime.py",
+      "sha256": "a3e35cee6a6fdbe0a85146d4bbc5bd45d6fee772bfc3779d33629076f6aad8eb",
+      "bytes": 4538
+    },
+    {
+      "path": "scripts/mitra_v2_raw486_worker.py",
+      "sha256": "8bb5fb2c5d32cd23be45493a1e863eeaa7a1d1c14a9c28aed3bb54d7765885a7",
+      "bytes": 13980
+    },
+    {
+      "path": "scripts/mitra_v2_requirements.lock.txt",
+      "sha256": "5ed34771c7bd5acae7cbd110816cfbcc9478f1e4d57890d979bbce6371c3aed4",
+      "bytes": 2538
+    },
+    {
+      "path": "scripts/mitra_v2_resume_worker.py",
+      "sha256": "3426703e109265d7374c377edd994e812225e6d1831b4da85706ffcb3e69e437",
+      "bytes": 1667
+    },
+    {
+      "path": "scripts/mitra_v2_tabpfn_worker.py",
+      "sha256": "a342f0d0b856009be17fc937f03ca2ba33e80dd55e87737b7537550b67ed255b",
+      "bytes": 1145
+    },
+    {
+      "path": "scripts/mitra_v2_worker.py",
+      "sha256": "c5cba870de91a7deaf5a1fc990659ea2f0ebdfec303bf1020144529798db02a2",
+      "bytes": 10795
+    },
+    {
+      "path": "scripts/recover_cradiov4_import.py",
+      "sha256": "f41786e57d16036b5c3c066be140b79f08ecb0da4cd0875786aa2b3956bf99fe",
+      "bytes": 6031
+    },
+    {
+      "path": "scripts/refine_structure_detector.html",
+      "sha256": "4ed1caa8845cdf6296abc87fb1752c26506073e59d0e9e253207ff5885a84a4f",
+      "bytes": 6853
+    },
+    {
+      "path": "scripts/refine_structure_detector.py",
+      "sha256": "86bf73fc04aad53eeb521ecc81d0f11a212d9f38db07c36a178421e0fa250eb5",
+      "bytes": 17434
+    },
+    {
+      "path": "scripts/refined_structure_features.py",
+      "sha256": "0bdc617b4a19dc28a19ccd8306803a9ca94c78389e02035f527fe03a3826bfb1",
+      "bytes": 5201
+    },
+    {
+      "path": "scripts/render_common_failure_diagnosis.py",
+      "sha256": "313e86c2110fa349da78517fe4836e5a7591811558aae70bb784f397a764cd25",
+      "bytes": 3010
+    },
+    {
+      "path": "scripts/residual_correction_engine.py",
+      "sha256": "9ab2be6e7ee67403adf53eeabf94301cf99cdf1e58e65ea2d247a352b60ced64",
+      "bytes": 6549
+    },
+    {
+      "path": "scripts/residual_correction_experiment.py",
+      "sha256": "adbdb6f5b32d1d37c131b2431dbe4fa09e162afbaec5bc95cb49b52b4b783983",
+      "bytes": 23591
+    },
+    {
+      "path": "scripts/resnet_texture_experiment.py",
+      "sha256": "d9bd08d84aa15af935fd23241d098fed7030d971d241b0bf1c92f062a2bb485d",
+      "bytes": 29473
+    },
+    {
+      "path": "scripts/resume_final_large_radio_d4.py",
+      "sha256": "491a59fddc49e177385c300f29eef89dd61f519f6b6aa283f1c570ba674e9dca",
+      "bytes": 6634
+    },
+    {
+      "path": "scripts/resume_mitra_v2.ps1",
+      "sha256": "4741d349abb793bd40cdd43100bea56f9dd6cf66a6ff891e8d59f4afe5b41a89",
+      "bytes": 518
+    },
+    {
+      "path": "scripts/resume_mitra_v2.py",
+      "sha256": "5312e25568ae9515501ae24c933080c81c451bf9b500384db3b7d5643e03608f",
+      "bytes": 8342
+    },
+    {
+      "path": "scripts/review_boundary_measurements_v2.py",
+      "sha256": "01709c5d38c1953d9f1c3aaf5b55d9e4e807cb3880e38c75abe36fc4853ea03e",
+      "bytes": 6521
+    },
+    {
+      "path": "scripts/review_boundary_quality_v3.py",
+      "sha256": "a66e2858d12e7094092f63afce3fb7323ad1934c795a2d7c901ec46305d00924",
+      "bytes": 3706
+    },
+    {
+      "path": "scripts/review_boundary_tabpfn.py",
+      "sha256": "47c48d935ee0155f827da15e7c5c04670d954967d6db469be211ab049cba953f",
+      "bytes": 8542
+    },
+    {
+      "path": "scripts/review_convnext.py",
+      "sha256": "33f9780afd391da65d4d0dbf5fd5409d3aa26c3bee0c3d1650ed1513bc833991",
+      "bytes": 12155
+    },
+    {
+      "path": "scripts/review_dinov2_d4.py",
+      "sha256": "159350afb0124ad087787959fa7f409bef34cb4f9642f86c84957d690eb10b69",
+      "bytes": 9921
+    },
+    {
+      "path": "scripts/review_dinov2_learning_curve.py",
+      "sha256": "315e9fa47c033037222bd2255c2b64e71e64e5e9531dd38b037da502239173bc",
+      "bytes": 9328
+    },
+    {
+      "path": "scripts/review_dinov2_spatial.py",
+      "sha256": "d1f04e393732d2fa4e2d9a82ee68615b7bc9277e28a37dc50a1963c4f5fbd82e",
+      "bytes": 9292
+    },
+    {
+      "path": "scripts/review_efficientnet_micronet.py",
+      "sha256": "998b53e7b6ae349569f166a164da11e1a145c66dec291f6bf3a5ea3eaee6e1b4",
+      "bytes": 10148
+    },
+    {
+      "path": "scripts/review_final_submission.py",
+      "sha256": "2033e3a8d654c1a65b5f3df252a0499dea0853dc26e71263ac454037b4feff21",
+      "bytes": 8944
+    },
+    {
+      "path": "scripts/review_local_structure.py",
+      "sha256": "f5474510bf8a6e9e22dcf702c8a29cf4aa74442d8885775314863e3d7350b093",
+      "bytes": 10925
+    },
+    {
+      "path": "scripts/review_local_structure_confirmation.py",
+      "sha256": "7a883ad2c794b8e32126deb316746635aebc2d6460c0ff3a4692939eeeacf49a",
+      "bytes": 7476
+    },
+    {
+      "path": "scripts/review_morphology.py",
+      "sha256": "2ae7c4d5f15401941a015300a0148b4439222d9ce7fe402870c9dc04b3b56c6f",
+      "bytes": 7784
+    },
+    {
+      "path": "scripts/review_next_step.py",
+      "sha256": "562db9d327f8be94148cab129f74977d6ff893a536f4cd3dc1c8267d600c4381",
+      "bytes": 4354
+    },
+    {
+      "path": "scripts/review_partial_dinov2.py",
+      "sha256": "24b7b6b667e7dea40347bb25bc8a305a76923ab0ce8ea03d64840be5b38177a0",
+      "bytes": 15120
+    },
+    {
+      "path": "scripts/review_refined_structure.py",
+      "sha256": "5d73e802326e738d5e8e44de7ba5dfa55e5c59fa54792f70f91b9c65a50a5110",
+      "bytes": 10894
+    },
+    {
+      "path": "scripts/review_resnet_d4.py",
+      "sha256": "a8d42a2083e33376290f7f6d3562f4c538c0d4e61d7f9a1080063c89188210db",
+      "bytes": 9405
+    },
+    {
+      "path": "scripts/review_resnet_texture.py",
+      "sha256": "ef0b99209870f1f12fec64b2308199a63b4d2f60d29f19ada5b4180be6f4b656",
+      "bytes": 9280
+    },
+    {
+      "path": "scripts/review_ridge_initialized_dinov2.py",
+      "sha256": "c29dd0ce12b4fd41d2bcb8986bb755fde5ce6a55b303f935eb5a86b1659ed14c",
+      "bytes": 19967
+    },
+    {
+      "path": "scripts/review_scattering_tabpfn.py",
+      "sha256": "980f4cde01f92a9dc36bb602bdd2eb3fea4d4e27ff7a5d7d0be1364e804d005b",
+      "bytes": 9734
+    },
+    {
+      "path": "scripts/review_scattering_tabpfn_confirmation.py",
+      "sha256": "530fb19bb55bfd1c04c0f2035dccc14b812ea28c9d4b5f6a3deb804f3d764e06",
+      "bytes": 9535
+    },
+    {
+      "path": "scripts/review_structure_measurements.py",
+      "sha256": "cf3dff3fa5e5830d3f19ab3da97545da02d785763407385af00d801847799f4d",
+      "bytes": 6831
+    },
+    {
+      "path": "scripts/review_tabpfn_v2.py",
+      "sha256": "08c9fa142c18a0c249482cf82f601016c7c86c3ca9314f5ead65dfc460b8b9fc",
+      "bytes": 10096
+    },
+    {
+      "path": "scripts/review_tabpfn_v2_confirmation.py",
+      "sha256": "412337c339f3d8ca16a29b2f0a28a3451b05142be3ec8047e123d71541059b74",
+      "bytes": 7235
+    },
+    {
+      "path": "scripts/run_cradio_fisher.ps1",
+      "sha256": "044820ba9078f6ebdca12d23d08255c4e4ca33a7edb43fb438c10f865d7611f8",
+      "bytes": 1164
+    },
+    {
+      "path": "scripts/run_cradio_spatial.ps1",
+      "sha256": "2fa99af04d9a12b82a10183a3e245ae4a173c38312132cc47aa3d9d3aa7a6e45",
+      "bytes": 1355
+    },
+    {
+      "path": "scripts/run_cradiov4.ps1",
+      "sha256": "8f24554b8b1a8f0a26e35277f597277243a50ce018b795b0ae29b192e1f75f61",
+      "bytes": 1507
+    },
+    {
+      "path": "scripts/run_cradiov4_confirmation.ps1",
+      "sha256": "e4a7495c41166c2885aa7b27e807494672a47ade915c2ccb7afed557253be096",
+      "bytes": 1330
+    },
+    {
+      "path": "scripts/run_cradiov4_h_d4.ps1",
+      "sha256": "ab43cade50de8d9ea277fb3bd5585ce3344ba878b5a5d0f18a408e63692400bc",
+      "bytes": 1202
+    },
+    {
+      "path": "scripts/run_dinov2_factorial.ps1",
+      "sha256": "7394b020ad57bfa64d5f2144b09d6528c0a82fada22983b35e0c4f4861062638",
+      "bytes": 1333
+    },
+    {
+      "path": "scripts/run_dinov2_large518_confirmation.ps1",
+      "sha256": "3f59422ce35956d75ffea7d4eb6993b6f1fca41e27633797a582ec4dc862e6cc",
+      "bytes": 933
+    },
+    {
+      "path": "scripts/run_dinov2_large_register_d4.ps1",
+      "sha256": "19c257fe84010d7fa7886229c43face1a36b9a528c12bd06592d7bfad9ec7483",
+      "bytes": 1260
+    },
+    {
+      "path": "scripts/run_dinov3_large.ps1",
+      "sha256": "38bd671d2077c06037d8b50f5cccdd32e8b566d5c816ecd817a4d1f5c32151d9",
+      "bytes": 1439
+    },
+    {
+      "path": "scripts/run_drunet_large518.ps1",
+      "sha256": "2bb3ed3deff426d6827c9de69f4cb33a5c538f9020b48e9faca82b9923cf4a66",
+      "bytes": 1099
+    },
+    {
+      "path": "scripts/run_final_cradiov4.ps1",
+      "sha256": "b6daaaeb54203508c30fb84bee9036dbf2f593b47d5726aad4d6db2419972d7f",
+      "bytes": 1060
+    },
+    {
+      "path": "scripts/run_final_large518.ps1",
+      "sha256": "058c9c89077625c1db205c43c865015ed620f9db901a206ae7250e0931d08cc7",
+      "bytes": 1034
+    },
+    {
+      "path": "scripts/run_final_large_radio_d4.ps1",
+      "sha256": "f59c5eb6ed314310e065b0770ef1556b40a4fa6a623334a861bbf56fc6d1c974",
+      "bytes": 1143
+    },
+    {
+      "path": "scripts/run_gray_cnn.ps1",
+      "sha256": "c69732131fbd0ccfea4ab1efb5af8e4f546f1a3232f6177d94fb3f6a13501980",
+      "bytes": 1108
+    },
+    {
+      "path": "scripts/run_large_radio_d4.ps1",
+      "sha256": "923e66d85ed852e9ab93f0396292b4b18989b10b6091cebe64a812b647f7f2b7",
+      "bytes": 1275
+    },
+    {
+      "path": "scripts/run_micronet.ps1",
+      "sha256": "f7cf47fd8f32cbe00d08ee5968d03f5edda80c1cc31a856383fa29bbe290075a",
+      "bytes": 1626
+    },
+    {
+      "path": "scripts/run_micronet_adapter.ps1",
+      "sha256": "d75d0a8ec1d34a6e2fdf75b8b4a7f18bea6fbfb1f74ca651aa7402af28f7fddd",
+      "bytes": 1311
+    },
+    {
+      "path": "scripts/run_micronet_finetune.ps1",
+      "sha256": "45095fcf871c9d5a1975f7aa40812b99203e56168927cb27303947d880dee3bf",
+      "bytes": 1291
+    },
+    {
+      "path": "scripts/run_micronet_finetune_80.ps1",
+      "sha256": "9cfbf0ce7d97532c0e43fd6a7a7cdd9fb4ad2a476a448d735b05be17fbeabaab",
+      "bytes": 1319
+    },
+    {
+      "path": "scripts/run_micronet_mim.ps1",
+      "sha256": "d6b68f3eba55c2bf3f8e112df0274c1f6d625d1ce8a8d331e06e5e20fbbd7ad9",
+      "bytes": 1303
+    },
+    {
+      "path": "scripts/run_micronet_multiview.ps1",
+      "sha256": "3ec284c5fde9ebff267e55fd353b0822949bb330d0f0de20e82c4fde29ec1cf9",
+      "bytes": 1506
+    },
+    {
+      "path": "scripts/run_micronet_tabpfn.ps1",
+      "sha256": "adb9c182d10577acc098261e284de0079ac9ffbaacf6f81fd291045c0a296af5",
+      "bytes": 1307
+    },
+    {
+      "path": "scripts/run_mitra_v2.ps1",
+      "sha256": "97f2678ca542ce0b241aee97b57777419b5e8a8d06ba257e8ddfa304ac603aaa",
+      "bytes": 899
+    },
+    {
+      "path": "scripts/run_mitra_v2_raw486.ps1",
+      "sha256": "6b193e0d46f187fcad91de1ff6f2df31fad91459ccf9ee4bfcfef060592832ca",
+      "bytes": 1131
+    },
+    {
+      "path": "scripts/run_residual_correction.ps1",
+      "sha256": "e742195ad427bea9777b0c45d1e2a75a321d62d743f75a701c370fb6f54cf05b",
+      "bytes": 1196
+    },
+    {
+      "path": "scripts/run_tabicl_comparison.ps1",
+      "sha256": "d61a498adba1e821377af75f028a3316e8a75de08a1c15ce4e02bbc8361f0912",
+      "bytes": 1376
+    },
+    {
+      "path": "scripts/scattering_features.py",
+      "sha256": "d56870d25bb697f6249e3af56b1df5cf24c3fe34a33d4fdcbda0331d710272f6",
+      "bytes": 7385
+    },
+    {
+      "path": "scripts/setup_cradiov4.py",
+      "sha256": "256f6c6962b4231900423e62fc757e9de57df7d789c237fc4633845c3f244b7f",
+      "bytes": 3235
+    },
+    {
+      "path": "scripts/setup_cradiov4_h.py",
+      "sha256": "caa4b556913328b985ab9a693ea1ff089d8f6227373fa5d4b91bbc5ba3cc4236",
+      "bytes": 2572
+    },
+    {
+      "path": "scripts/setup_dinov2_factorial.py",
+      "sha256": "557f7a80fe85defdd84733d50d4be98a83ef1ac061e21db008f1044acafc6d5e",
+      "bytes": 4651
+    },
+    {
+      "path": "scripts/setup_dinov2_large_register.py",
+      "sha256": "59745723720419f4697c85cc2e60226efec24a265471433b51e755449a3f9321",
+      "bytes": 2497
+    },
+    {
+      "path": "scripts/setup_dinov3_large.py",
+      "sha256": "838826c5dd07c7f031b20a51a0f9ff659adb9c673b866f26312bdd5d27f855a6",
+      "bytes": 2114
+    },
+    {
+      "path": "scripts/setup_frozen_resnet.ps1",
+      "sha256": "5860c0c1a0196a6d2b625e9287521d7eda1e4309a587540c3a158db72d28046a",
+      "bytes": 3784
+    },
+    {
+      "path": "scripts/setup_micronet.py",
+      "sha256": "a37df1ecfd4f849fca262b8825031a008ae85bfba2bd8ae214f62d4b2f5e15e1",
+      "bytes": 6939
+    },
+    {
+      "path": "scripts/setup_mitra_v2.ps1",
+      "sha256": "f75ff5b0beca68b46eae01b974a8a7463d3fa5d91a3b4fc0b238ae7f51139ae8",
+      "bytes": 1186
+    },
+    {
+      "path": "scripts/setup_tabicl.py",
+      "sha256": "87ca139acbb2e5b31b93277c898c45e0f5036fb50a97c7ad000d0628b8c8ed23",
+      "bytes": 7452
+    },
+    {
+      "path": "scripts/structure_annotation_pilot.html",
+      "sha256": "c2a372112eca6e1f9d1b86eb5f973eb234b4e469d6ac7e4add8959120a9e17ba",
+      "bytes": 23282
+    },
+    {
+      "path": "scripts/structure_annotation_pilot.py",
+      "sha256": "4949a3631e479ea03e0d47adfebebe7b14f69533d0a1642e50e45989abcb5799",
+      "bytes": 13617
+    },
+    {
+      "path": "scripts/test_mitra_v2.py",
+      "sha256": "a9e06b855f1fc4fd97362944ffc18bc110abbe9f7085e3d18091ebd85bebdc3d",
+      "bytes": 5007
+    },
+    {
+      "path": "scripts/test_mitra_v2_memory_guard.py",
+      "sha256": "1ad6a0a20ac62b487061d34316c86a267f46ec922a4c12251004c738c9ac413d",
+      "bytes": 3491
+    },
+    {
+      "path": "scripts/test_mitra_v2_raw486.py",
+      "sha256": "779b68a8619e489da97ceaff50a6123d0b76c5b8f7265981ed43d7a97aa4eb7b",
+      "bytes": 5338
+    },
+    {
+      "path": "scripts/train_partial_dinov2.py",
+      "sha256": "5f68cd6a4a8deee820583371376f116f46de1b5fa133df35b8748a90ebddbcb8",
+      "bytes": 29852
+    },
+    {
+      "path": "scripts/train_partial_resnet.py",
+      "sha256": "ca0276eeff5b4d665f2c7779051012d26d556a4f2aa2f7b22e26190c16ed3ded",
+      "bytes": 29282
+    },
+    {
+      "path": "scripts/train_ridge_initialized_dinov2.py",
+      "sha256": "aa3a1eea95c4c0d3bcd62d8554f834413863069580d92c6441e4306c0935ae4b",
+      "bytes": 30037
+    },
+    {
+      "path": "scripts/vendor/drunet/basicblock.py",
+      "sha256": "aab51f43fee655fda5c499a0481fffd45bf390bdb8229944262c41e0a900cec1",
+      "bytes": 21015
+    },
+    {
+      "path": "scripts/vendor/drunet/LICENSE",
+      "sha256": "afd973a2b98d60d178342477feed2c5673640288b0663e83e33e0e63ece9634c",
+      "bytes": 1089
+    },
+    {
+      "path": "scripts/vendor/drunet/network_unet.py",
+      "sha256": "6c2799036afeba30cb57039bf1206dfec6b5941a386d15c56b92cba4d35afd09",
+      "bytes": 16674
+    },
+    {
+      "path": "scripts/vendor/drunet/PROVENANCE.txt",
+      "sha256": "30cc01cbddf5c934afaea6b74fa6661ce7fbc295c8ed428448a58d65148d2c47",
+      "bytes": 671
+    },
+    {
+      "path": "tests/test_auto_structure_review.py",
+      "sha256": "4eabe7cf84f3557bd3835f8d36a41491d1f9b8fa3c31f708c3d5ea62b6f01770",
+      "bytes": 2092
+    },
+    {
+      "path": "tests/test_boundary_measurements_v2.py",
+      "sha256": "8bc047727e956d0d6675f0681e36e5ca5df89bcb80e27e64a9725011ab031294",
+      "bytes": 2279
+    },
+    {
+      "path": "tests/test_boundary_quality_v3.py",
+      "sha256": "f7f32adf27abbc3c47e31b7e727a452ec0870fa4291d32c3292f00e22abfce20",
+      "bytes": 4150
+    },
+    {
+      "path": "tests/test_boundary_tabpfn.py",
+      "sha256": "c6ee228003fc1ec9368147b2aea5932fdc1974d4eda694e52dff3ce0bd54dba4",
+      "bytes": 7699
+    },
+    {
+      "path": "tests/test_convnext_experiment.py",
+      "sha256": "89f1a180e99add090f62574d1380aff6a5db239002b3246a04d1ff2cdc2137a4",
+      "bytes": 13245
+    },
+    {
+      "path": "tests/test_cradio_fisher.py",
+      "sha256": "999fec70ea3ad696f93bfe8a8d39630d47534c88df5f1a080195804b2aa87618",
+      "bytes": 10064
+    },
+    {
+      "path": "tests/test_cradio_spatial.py",
+      "sha256": "b61107fa9de61a9b766394fbcdaa303b6532525c3dc0084454f33f2c43f4bb2c",
+      "bytes": 10814
+    },
+    {
+      "path": "tests/test_cradiov4.py",
+      "sha256": "6e649e3b40fbc5949dab8a0ae36d92233efff1290cfa3ceb57c30e4d1bf9d5df",
+      "bytes": 12180
+    },
+    {
+      "path": "tests/test_cradiov4_confirmation.py",
+      "sha256": "cfb320c84f3c62e5888105b917c9d695c4e66b4f1c7a98a721df3f8f7e3313b1",
+      "bytes": 9732
+    },
+    {
+      "path": "tests/test_cradiov4_h_d4.py",
+      "sha256": "7586107663bd051b2bd73d0c93b938d2bbfdfda44a87f2263367c88875b732f8",
+      "bytes": 6585
+    },
+    {
+      "path": "tests/test_dinov2_d4.py",
+      "sha256": "c5c57ea22a40340ba8924c0fcc5a86ed5a0d7c5eae8d9da4ad098c5639e97073",
+      "bytes": 14825
+    },
+    {
+      "path": "tests/test_dinov2_evaluation.py",
+      "sha256": "400e1c04383f3ca0b904741f6ae08a4c5f2e6e73f81a35a718aacea64c89666d",
+      "bytes": 14667
+    },
+    {
+      "path": "tests/test_dinov2_extraction.py",
+      "sha256": "6a5432854a04639e9fb5e10aa328f1ec1bef66928e2c1de1872fb172a2c6257c",
+      "bytes": 10843
+    },
+    {
+      "path": "tests/test_dinov2_factorial.py",
+      "sha256": "81bfb4f8493d41f71e2323601066cc6e5c223114067ccc21396d07e73df1fe55",
+      "bytes": 10866
+    },
+    {
+      "path": "tests/test_dinov2_kernel.py",
+      "sha256": "ed38961c895064290a1a76a3ebdb04e0743d1cf2af7f597d49ae22440d786990",
+      "bytes": 21041
+    },
+    {
+      "path": "tests/test_dinov2_large518_confirmation.py",
+      "sha256": "d0aa53f41fe2ad30dbef7d6b801452773cfe687bd727aa44fc79c9a25bcf956e",
+      "bytes": 11646
+    },
+    {
+      "path": "tests/test_dinov2_large_register_d4.py",
+      "sha256": "cd901785dde20cf6ccf01dbb5ba2737641c6a89504599dae17d65edafe09bc1e",
+      "bytes": 7469
+    },
+    {
+      "path": "tests/test_dinov2_learning_curve.py",
+      "sha256": "f8bde79a1376405be81cf3ebcb83a9feb433d712b6fa05b699d8dce6ccb24c6f",
+      "bytes": 15368
+    },
+    {
+      "path": "tests/test_dinov2_spatial.py",
+      "sha256": "85d7a18e03e988126c159d9339e304abd688a1cfc2aeb6c31d2c53e78f9a4bec",
+      "bytes": 12893
+    },
+    {
+      "path": "tests/test_dinov3_large.py",
+      "sha256": "e45906dcffa9d026beedd05406fded86e0c45c1a636b8aa400deda991603230f",
+      "bytes": 6200
+    },
+    {
+      "path": "tests/test_drunet_large518.py",
+      "sha256": "cda9f5ac8bf727bf747c6a8179e57e4d0544cca93ea4dde9bcec62e9d7fe8e05",
+      "bytes": 6861
+    },
+    {
+      "path": "tests/test_efficientnet_micronet.py",
+      "sha256": "cf1901ae4b8685f28b76bda511b971321395fb0f13eef35761f8d68806b0af35",
+      "bytes": 9807
+    },
+    {
+      "path": "tests/test_feature_fusion.py",
+      "sha256": "b0a396946399ed4ce96daee30c7360f464fe92db1d2cf4ded1a8502524ff9989",
+      "bytes": 17364
+    },
+    {
+      "path": "tests/test_final_cradiov4_submission.py",
+      "sha256": "d946f74f255c2feafb000d685938a197178af8a2e2460de240f6a766f6419ef8",
+      "bytes": 13252
+    },
+    {
+      "path": "tests/test_final_large518_submission.py",
+      "sha256": "6ea5abd8dd2f6c13129c7d3cb25e6018d24aa45802a3ed529775aa0a99fd7c54",
+      "bytes": 14063
+    },
+    {
+      "path": "tests/test_final_large_radio_d4.py",
+      "sha256": "6b57cbf116150f605f8e8cb9fc21d5c1040eff6c08471831f0533af359c41af3",
+      "bytes": 10021
+    },
+    {
+      "path": "tests/test_final_large_radio_d4_runtime.py",
+      "sha256": "cd2cc725e560b32e1696c4c6d5512dc9035372408dd21181f9317324b50e015a",
+      "bytes": 3817
+    },
+    {
+      "path": "tests/test_final_scattering_submission.py",
+      "sha256": "f1ebfa767672e17d1c46d908fce81abba2255fa2c9fd1a808bdb716356832c40",
+      "bytes": 10432
+    },
+    {
+      "path": "tests/test_final_submission.py",
+      "sha256": "476dfbdea5e6151543c3b933bcc125e5681437ceee4792d4bf70f512a0f932a7",
+      "bytes": 16631
+    },
+    {
+      "path": "tests/test_final_tabpfn_submission.py",
+      "sha256": "f2bd8fb1feb79ccd4f4ae056f75d0b6bb305618f2045ccb37927845234e71b9f",
+      "bytes": 8316
+    },
+    {
+      "path": "tests/test_frozen_evaluation.py",
+      "sha256": "882221cde6c2f88fc5b17709b22a9d4d72ddb73845d907ea3efe662b9df89d03",
+      "bytes": 12901
+    },
+    {
+      "path": "tests/test_frozen_extraction.py",
+      "sha256": "c4d193e9a7a2016c2a73526d3fab23c5eed1b9d64cf20033eb6a08b9317daf48",
+      "bytes": 5620
+    },
+    {
+      "path": "tests/test_gray_cnn.py",
+      "sha256": "d3f1f9e7428bf40eb16891f2f11d7e4e8fcd62234498c3d018f7cd2cb564c94f",
+      "bytes": 10153
+    },
+    {
+      "path": "tests/test_large_radio_d4.py",
+      "sha256": "d32601e8adca1128657e7cb85aa68fe8ec44c9bc7055173c7be27f74689fc284",
+      "bytes": 7411
+    },
+    {
+      "path": "tests/test_local_structure.py",
+      "sha256": "9be59053f1b371a56c33857e9ec9d55e51b9717367ebae5a79e76f1f5edcad76",
+      "bytes": 16557
+    },
+    {
+      "path": "tests/test_local_structure_confirmation.py",
+      "sha256": "1af8cc52e40918b60fdfa93489761f5ea632560796ab24260c0a0098156056f0",
+      "bytes": 8979
+    },
+    {
+      "path": "tests/test_micronet_adapter.py",
+      "sha256": "b5d51ab2d5ff942240edd1ccfbc224d05102fc0420344b4b8be91a3cfdbf9d44",
+      "bytes": 14115
+    },
+    {
+      "path": "tests/test_micronet_finetune.py",
+      "sha256": "445385e47e6a48314287ea3e4d1dcb22fbefe21089134036ecf7f52eb331d76f",
+      "bytes": 10545
+    },
+    {
+      "path": "tests/test_micronet_finetune_80.py",
+      "sha256": "a9bea159c0b4a4b9bc96387c5e16ea0136d299bc6a836dcff7b2c20bea814c32",
+      "bytes": 8955
+    },
+    {
+      "path": "tests/test_micronet_mim.py",
+      "sha256": "191035909fab0f719753ca7143bc576208492a2cd5b090d4bba26e08ad1e8a2a",
+      "bytes": 13210
+    },
+    {
+      "path": "tests/test_micronet_multiview.py",
+      "sha256": "954da6a15fa4890e0da062e8d65dc66e55dca9d1afb2bebcf5175dbfa00fe811",
+      "bytes": 12023
+    },
+    {
+      "path": "tests/test_micronet_tabpfn.py",
+      "sha256": "9b83c1878645949db5ed0dd56908837ca7c0dfe408f0a8c850e51a71383b9f79",
+      "bytes": 10641
+    },
+    {
+      "path": "tests/test_morphology.py",
+      "sha256": "4021fc3ce5c7710bee015c2a9bb0567546074b2ed848a629b821133e7667c8f3",
+      "bytes": 11404
+    },
+    {
+      "path": "tests/test_partial_dinov2.py",
+      "sha256": "9dc712a07348633ce16b0b9d4521179086b58b86f26433fc8fb1dbf00948087e",
+      "bytes": 18347
+    },
+    {
+      "path": "tests/test_partial_training.py",
+      "sha256": "5951caeabd27df3573dbfc1ac32f399b8864416814564cb807e0988a7bfd24e8",
+      "bytes": 23046
+    },
+    {
+      "path": "tests/test_refine_structure_detector.py",
+      "sha256": "3a6cfeab59ad1015b99393f018f2b93ebfddfd31f0e2fb3b3233bd8f21818b32",
+      "bytes": 2451
+    },
+    {
+      "path": "tests/test_refined_structure.py",
+      "sha256": "515a5b8c3e5248fa759de5e2d920a8efc7abf7593b034eb9e92a6366d41df8e3",
+      "bytes": 8756
+    },
+    {
+      "path": "tests/test_residual_correction.py",
+      "sha256": "c07a3b881ce5fc6c70e3693408265bd0ceca1d385b77c6097eee4ad063747ef7",
+      "bytes": 9622
+    },
+    {
+      "path": "tests/test_resnet_d4.py",
+      "sha256": "81a7dcc150c21b97ac2e46fdcdd20af8382eb71d3ef8b84943cdae809c4274a6",
+      "bytes": 16972
+    },
+    {
+      "path": "tests/test_resnet_texture.py",
+      "sha256": "e3ae386b002e7f5b39b385811df2605082dba669d6be0263376f7fc84c1d280f",
+      "bytes": 11940
+    },
+    {
+      "path": "tests/test_ridge_initialized_dinov2.py",
+      "sha256": "9612398ec8a84cd221213e6a68a89991336146cda7a5006aaa23456a803e289c",
+      "bytes": 16233
+    },
+    {
+      "path": "tests/test_scattering_tabpfn.py",
+      "sha256": "b266ef2334b02fc7df59a0f1ec6efaf34b490d74ce0a424f51a3735845efd164",
+      "bytes": 8847
+    },
+    {
+      "path": "tests/test_scattering_tabpfn_confirmation.py",
+      "sha256": "3b69913bc5fccc808f64395b25d224b69bd239431a38e0e0cf84688fd102a8fc",
+      "bytes": 10236
+    },
+    {
+      "path": "tests/test_structure_annotation_pilot.py",
+      "sha256": "0f784e796d7da719ecfc6cd0d3f9187b5cbac0cc9b8823c88dbf3bc156769967",
+      "bytes": 6032
+    },
+    {
+      "path": "tests/test_structure_measurement_audit.py",
+      "sha256": "52d50887dccbc17049c1b3d319b64dea01899277b6ae9a6d5b86729331e34d3c",
+      "bytes": 3077
+    },
+    {
+      "path": "tests/test_tabicl_comparison.py",
+      "sha256": "f3ac99fef45677a48564d8cee2dafc47aeabadfb061cee1d2f41cfe30cd96e3f",
+      "bytes": 10546
+    },
+    {
+      "path": "tests/test_tabpfn_v2.py",
+      "sha256": "fa3e38db15ae682d873a8a2b488c8ff816a3ebf3893749f1986c868bdb48f36e",
+      "bytes": 7244
+    },
+    {
+      "path": "tests/test_tabpfn_v2_confirmation.py",
+      "sha256": "df4fa611f793b002ffedcdfa982b16c3eca1927bd9d29dfd02f1ec3f48f9196a",
+      "bytes": 6255
+    },
+    {
+      "path": "requirements-frozen-resnet.txt",
+      "sha256": "fdc2cf6500119fe30e36710e95e7de5416fade531122b26b95e87d379c1860d7",
+      "bytes": 330
+    },
+    {
+      "path": "requirements-morphology.txt",
+      "sha256": "131d837084b3dd2c63852eb96b560a94b61682ca4a78a7c108fcd74f45f6c36e",
+      "bytes": 361
+    },
+    {
+      "path": "requirements-scattering.txt",
+      "sha256": "3295171186094c4bce99f24d7cb9eade7aaa6de2f0f3b1978f18b67ff2edb75f",
+      "bytes": 257
+    },
+    {
+      "path": "requirements-tabpfn.txt",
+      "sha256": "cd6b7f14bd2e9d4d8f68f0bf5083ff412fb4a46a5849b986df17dc4003478691",
+      "bytes": 412
+    }
+  ]
+}

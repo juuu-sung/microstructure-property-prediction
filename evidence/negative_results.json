@@ -1,0 +1,141 @@
+{
+  "meaning": "Gain > 0 is improvement against the baseline used by that experiment, which changes over time.",
+  "experiments": [
+    {
+      "family": "micronet_multiview",
+      "primary": "current_multiview_equal",
+      "mean_gain_vs_current": -0.213892461090472,
+      "comparisons": null,
+      "source": {
+        "local_relative_source": "reports/micronet_multiview/comparison.json",
+        "sha256": "9bd6ce87c2fa5dbb7db8287e16590103d115fd43aabfe5c6ebcea4c51388bbb4"
+      }
+    },
+    {
+      "family": "cradio_spatial",
+      "primary": "spatial_replaced_blend",
+      "mean_gain_vs_current": -0.040371936098667405,
+      "comparisons": null,
+      "source": {
+        "local_relative_source": "reports/cradio_spatial/comparison.json",
+        "sha256": "c34214aae22b52b444de2a575b831818895fc39990eb652a1282d1a85f6afee6"
+      }
+    },
+    {
+      "family": "mitra_v2_raw486",
+      "primary": "mitra_raw486_replaced_blend",
+      "mean_gain_vs_current": -0.03979459604240976,
+      "comparisons": null,
+      "source": {
+        "local_relative_source": "reports/mitra_v2_raw486/comparison.json",
+        "sha256": "a288fbeab1153c0cf9e4976fb2a90403775cb64a167277c9398917ef9dffa50c"
+      }
+    },
+    {
+      "family": "cradiov4_h_d4",
+      "primary": "h_d4_replaced_blend",
+      "mean_gain_vs_current": -0.010724775709777923,
+      "comparisons": null,
+      "source": {
+        "local_relative_source": "reports/cradiov4_h_d4/comparison.json",
+        "sha256": "6058ae92679f213a70e3462b307b309cd30bd2ad6f4039f03d4a39431f54b88c"
+      }
+    },
+    {
+      "family": "dinov2_large_register_d4",
+      "primary": "large_register_equal_blend",
+      "mean_gain_vs_current": null,
+      "comparisons": {
+        "large_register_equal_blend": {
+          "mean_gain_vs_current": -0.01421263738570655,
+          "all_seeds_improve": false,
+          "passes_expansion_priority": false,
+          "mean_group_gains": {
+            "common16": -0.20983546978092704,
+            "remaining484": 0.004770655465594409,
+            "noiseQ4": 0.04674405937777237
+          },
+          "all_seeds_nonworsening": {
+            "common16": false,
+            "remaining484": true,
+            "noiseQ4": true
+          }
+        },
+        "large_register_replaced_blend": {
+          "mean_gain_vs_current": -0.05302843973935634,
+          "all_seeds_improve": false,
+          "passes_expansion_priority": false,
+          "mean_group_gains": {
+            "common16": -0.4324448022136522,
+            "remaining484": -0.017701152274020693,
+            "noiseQ4": 0.0605194373137623
+          },
+          "all_seeds_nonworsening": {
+            "common16": false,
+            "remaining484": false,
+            "noiseQ4": true
+          }
+        }
+      },
+      "source": {
+        "local_relative_source": "reports/dinov2_large_register_d4/comparison.json",
+        "sha256": "5d494675d76f8fc5193e1f65a11229ff560a781cdde79f2516327e32ba38d1ef"
+      }
+    },
+    {
+      "family": "cradio_fisher_d4",
+      "primary": "fisher_replaced_blend",
+      "mean_gain_vs_current": null,
+      "comparisons": {
+        "global_retuned_blend": {
+          "mean_gain_vs_current": -0.03665836912084064,
+          "mean_gain_vs_control": 0.0,
+          "all_seeds_improve_current": false,
+          "all_seeds_improve_both": false,
+          "mean_group_gains": {
+            "common16": 0.6266607459774391,
+            "remaining484": -0.10467021157014944,
+            "noiseQ4": -0.1806828310357833
+          },
+          "all_seeds_nonworsening_vs_current": {
+            "common16": true,
+            "remaining484": false,
+            "noiseQ4": false
+          },
+          "all_seeds_nonworsening_vs_control": {
+            "common16": true,
+            "remaining484": true,
+            "noiseQ4": true
+          },
+          "passes_expansion_priority": false
+        },
+        "fisher_replaced_blend": {
+          "mean_gain_vs_current": -0.013337384326074009,
+          "mean_gain_vs_control": 0.02332098479476663,
+          "all_seeds_improve_current": false,
+          "all_seeds_improve_both": false,
+          "mean_group_gains": {
+            "common16": 0.5069752151244451,
+            "remaining484": -0.06603820092389956,
+            "noiseQ4": -0.153601427152803
+          },
+          "all_seeds_nonworsening_vs_current": {
+            "common16": true,
+            "remaining484": false,
+            "noiseQ4": false
+          },
+          "all_seeds_nonworsening_vs_control": {
+            "common16": false,
+            "remaining484": true,
+            "noiseQ4": false
+          },
+          "passes_expansion_priority": false
+        }
+      },
+      "source": {
+        "local_relative_source": "reports/cradio_fisher_d4/comparison.json",
+        "sha256": "bc76eb4c02a2c06b5ef08c566beaee563c3638619e4ecb62c8d175f7dbc071b7"
+      }
+    }
+  ]
+}

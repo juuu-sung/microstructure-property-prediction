@@ -1,0 +1,16 @@
+# Local TabPFN-v2 runtime, pinned additions; preserve existing versions with constraints.
+annotated-types==0.8.0
+backoff==2.2.1
+distro==1.9.0
+einops==0.8.2
+eval_type_backport==0.4.0
+nvidia-ml-py==13.615.71
+platformdirs==4.12.4
+posthog==7.67.0
+pydantic-settings==2.15.0
+pydantic==2.14.0
+pydantic_core==2.50.0
+python-dotenv==1.2.4
+tabpfn-common-utils==0.2.23
+tabpfn==6.4.1
+typing-inspection==0.4.4

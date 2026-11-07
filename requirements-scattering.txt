@@ -1,0 +1,5 @@
+# Isolated installation ONLY; do not install into the frozen TabPFN environment.
+# .\.venv-microstructure\Scripts\python.exe -m pip install --target .deps-scattering --no-deps -r requirements-scattering.txt
+kymatio==0.3.0
+appdirs==1.4.4
+configparser==7.2.0

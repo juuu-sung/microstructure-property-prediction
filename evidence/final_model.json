@@ -1,0 +1,32 @@
+{
+  "rows": 1000,
+  "weights": {
+    "scattering486": 0.5,
+    "large518_d4_ridge": 0.25,
+    "cradiov4_d4_ridge": 0.25
+  },
+  "effective_weights": {
+    "hand185": 0.0625,
+    "originalResNet": 0.0625,
+    "DINO_small_D4": 0.125,
+    "TabPFN486": 0.25,
+    "Large518_D4_Ridge": 0.25,
+    "CRADIO_D4_Ridge": 0.25
+  },
+  "sample_order_matches": true,
+  "all_finite": true,
+  "csv_round_trip_exact": true,
+  "clipping_or_calibration": false,
+  "test_used_for_fit": false,
+  "submission_sha256": "27041a3c35ba5014e0166dfedef16efbb1d570f807f275db3e79f8018a713104",
+  "alphas": {
+    "large": 1000.0,
+    "radio": 1000.0
+  },
+  "source": {
+    "local_relative_source": "reports/final_large_radio_d4_blend/submission/validation.json",
+    "sha256": "aa1256e95d5c896ba33f6e9a1fbc5fc8bfb160de3f2f191a13d977890538a3a6"
+  },
+  "raw_submission_in_repository": false,
+  "status": "Research closed on 2026-11-07; best participant-reported submission retained."
+}

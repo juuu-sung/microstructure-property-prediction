@@ -1,0 +1,12 @@
+# PyTorch CUDA wheels are installed separately by scripts/setup_frozen_resnet.ps1.
+# Python 3.12; CPU benchmark versions retained for comparable Ridge evaluation.
+numpy==2.3.5
+Pillow==12.3.0
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib==1.6.0
+threadpoolctl==3.7.0
+timm==1.0.24
+huggingface-hub==0.36.0
+safetensors==0.7.0
+PyYAML==6.0.3

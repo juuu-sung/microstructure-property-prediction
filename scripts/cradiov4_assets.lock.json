@@ -1,0 +1,134 @@
+{
+  "repo": "nvidia/C-RADIOv4-SO400M",
+  "revision": "c0457f5dc26ca145f954cd4fc5bb6114e5705ad8",
+  "revision_date": "2026-01-30",
+  "model_card_release_date": "2026-01-27",
+  "license": "NVIDIA Open Model License",
+  "license_url": "https://developer.download.nvidia.com/licenses/nvidia-open-model-license-agreement-june-2024.pdf",
+  "files": {
+    "LICENSE.pdf": {
+      "sha256": "396d7de220f6b0e6fcfe33836f1b99a9943769b97c56330444f8efe1b441f607",
+      "bytes": 151612
+    },
+    "README.md": {
+      "sha256": "af7881b8207e7060b8df5b8df4df4e87e628faffc188b494836bbec086233b33",
+      "bytes": 14000
+    },
+    "adaptor_attn.py": {
+      "sha256": "baa112b58158d75077e9bba8baba51b2c75f6a6deed2d8046aa5e5f2d5cb669a",
+      "bytes": 1796
+    },
+    "adaptor_base.py": {
+      "sha256": "f9d285cc76e70f977f9c78e748f610765f0bd068a13f86d804c07c765cece577",
+      "bytes": 1693
+    },
+    "adaptor_generic.py": {
+      "sha256": "3d1b5a015ff3754a9eb64cd56b4d04cae01e537a1ffa606adaf904c55fff07a1",
+      "bytes": 3747
+    },
+    "adaptor_mlp.py": {
+      "sha256": "e75a9ed1f7f58c749dec5a510d699f36f32fdb7f3b61cd8a7e3ccd5afd2c9b77",
+      "bytes": 4025
+    },
+    "adaptor_module_factory.py": {
+      "sha256": "2beac17dc5824c7d9f925dc782cdd4b49bd15cf206bf1cbaa9108a8966e33316",
+      "bytes": 3278
+    },
+    "adaptor_registry.py": {
+      "sha256": "16963e07de300e5f3cbd5e343aed111d04e4e55a50e07f50ccc2ab930883ea1e",
+      "bytes": 1371
+    },
+    "cls_token.py": {
+      "sha256": "64ee35f128380c3bb9bc1a913e98ac328220be88964f2092686c637ef866fc79",
+      "bytes": 1787
+    },
+    "common.py": {
+      "sha256": "6cc79e1f7b61f4917602d2efc9e0a833fa74d60563f6aac74e4625de23723bab",
+      "bytes": 7160
+    },
+    "config.json": {
+      "sha256": "6e49e911ff6e980125c208b10ed4b51bb4a92061862cbb8947473f1b33f88fd4",
+      "bytes": 7571
+    },
+    "dinov2_arch.py": {
+      "sha256": "5433d08522c28f46a69e710da1a86fc1d76fc03562dbb9b2b49baf5db21195d3",
+      "bytes": 35529
+    },
+    "dual_hybrid_vit.py": {
+      "sha256": "86853ae2ed28c902529cd9b78201350e7dba1cf54ea9e57578241ecc0d88d867",
+      "bytes": 7179
+    },
+    "enable_cpe_support.py": {
+      "sha256": "3c1e3df656960f5c83b38ba5f632fc5b335edf1d6de67731396a865aaa5ce1ed",
+      "bytes": 6557
+    },
+    "enable_damp.py": {
+      "sha256": "7e2a0b6f8934ac6e4a4768e5ca84cb4ff09ba3726a470f1cf046bd5169b2e334",
+      "bytes": 1290
+    },
+    "enable_spectral_reparam.py": {
+      "sha256": "b8e703400604ee5f9cdfac0de9b857b7f5126aad8bba03604b04f52f7641d6cb",
+      "bytes": 11004
+    },
+    "eradio_model.py": {
+      "sha256": "bf76c60b991813eef45c76246cd7dcee3fefbf39bde3d2b6ac8576067012d05f",
+      "bytes": 58289
+    },
+    "extra_models.py": {
+      "sha256": "a938b96715266d2f65325e56d0d8e42465d23e944e905d2820023472785c55a9",
+      "bytes": 5763
+    },
+    "extra_timm_models.py": {
+      "sha256": "d7364d5abf5b617782366948f0e593d7a2df275b076094afa1ebc5276a9f7102",
+      "bytes": 9892
+    },
+    "feature_normalizer.py": {
+      "sha256": "a74401f5220c2e5960d39addce9ba40f481efca9ab44bb9d96535ed23e1ef62b",
+      "bytes": 4399
+    },
+    "forward_intermediates.py": {
+      "sha256": "eb5a562d11edc655876eeb95bc1c3b4c7484b963dae41a3f76f7acd2a6906b9e",
+      "bytes": 5604
+    },
+    "hf_model.py": {
+      "sha256": "d28c0a0238ca8854a9af5a9f003761332bfc9182601b3b7466d9242be91ee96f",
+      "bytes": 7935
+    },
+    "input_conditioner.py": {
+      "sha256": "72062d3b71877e1469e069cf090e5f35d6ad7abaeb451e56502f7f32dc6c1075",
+      "bytes": 1492
+    },
+    "open_clip_adaptor.py": {
+      "sha256": "c2eb9166de48f5eb5f90f8a750e8ebe67da93698e794dc0bbdab5f013bab8e66",
+      "bytes": 1623
+    },
+    "preprocessor_config.json": {
+      "sha256": "6ca88d165592015b02a183d26a20fc96748e837d1cb21bde5f611141aca593cf",
+      "bytes": 331
+    },
+    "radio_model.py": {
+      "sha256": "2be659f5cd5b9db9c49db70387b65253c74bc16b3eb86e976f0f693271d4b183",
+      "bytes": 14018
+    },
+    "siglip2_adaptor.py": {
+      "sha256": "1f40f7d77beefd69ad86aac61b12c82ed915b4012e6bea1628fc8abe80782851",
+      "bytes": 3307
+    },
+    "utils.py": {
+      "sha256": "3b83163ce2650ef04973538dd79716ab015d24344ea25d52cfb0c37b093ba4ba",
+      "bytes": 1109
+    },
+    "vit_patch_generator.py": {
+      "sha256": "092e9a0b8eca4fee162484ef3ef77b399f686e5e0ffc7be85fb2d69bc2f9ebd9",
+      "bytes": 11475
+    },
+    "vitdet.py": {
+      "sha256": "5b83b4c7b90b797d854a6da2fd4093ce9210a52533d3f7ba6bf505793b6c68c3",
+      "bytes": 6318
+    },
+    "model.safetensors": {
+      "sha256": "23e0c117de49d4ce909150fe6658d470829e6639647c7a5b035ce82e0d5b763c",
+      "bytes": 1724986512
+    }
+  }
+}

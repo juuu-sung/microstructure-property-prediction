@@ -1,0 +1,82 @@
+{
+  "code_repo": "autogluon/mitra-finetune",
+  "code_revision": "b4701e8148dc33b00ed15d7086ff59816957cde4",
+  "code_files": {
+    "LICENSE": {
+      "bytes": 11347,
+      "sha256": "89ba347a9b4ddd7f3b243dc256c690962509ef4afb4032f690e6d599485c0455"
+    },
+    "README.md": {
+      "bytes": 16647,
+      "sha256": "1856dffa1f3107169f685e0596e231c17b7506c2d3e50a3e3f79f25be74c01e8"
+    },
+    "pyproject.toml": {
+      "bytes": 601,
+      "sha256": "1052134fe4ef95fab6bd061f3ce232f7a376bc026d3e85d803480048d98ed674"
+    },
+    "src/mitra_finetune/__init__.py": {
+      "bytes": 306,
+      "sha256": "fc6ac3bbfd3554ceffdb0154de54e8ab94374d5057d90367647b9b03bae8bce7"
+    },
+    "src/mitra_finetune/api.py": {
+      "bytes": 18377,
+      "sha256": "c92c4fb0029329383a336168d3ce2c8be45186eed3f650dc59100d7cd2d3128c"
+    },
+    "src/mitra_finetune/checkpoint.py": {
+      "bytes": 2902,
+      "sha256": "cc24fa650a08e7e549c50b6b74602f122fbed1f9f8262e29e8916ba349afa9de"
+    },
+    "src/mitra_finetune/distribution.py": {
+      "bytes": 15238,
+      "sha256": "95824cdd6c0af8e969f0e2ff51eece648cc0606f3de16daedeb52e05418d7ea6"
+    },
+    "src/mitra_finetune/feature_selection.py": {
+      "bytes": 11328,
+      "sha256": "b4d0adb5a9c4741cb0b24a41bb9a46c84353256a676b470a5c237a2dd56fb390"
+    },
+    "src/mitra_finetune/guard.py": {
+      "bytes": 702,
+      "sha256": "9c41d8a55e0b6736a3a1bfda372cb8300785e7bfb8be31df20e0ca18913f1c38"
+    },
+    "src/mitra_finetune/hierarchy.py": {
+      "bytes": 9130,
+      "sha256": "41fd18b8933c1c5871c0c1c93696d50ea311da1844f8f52f2d6b3213675f6f89"
+    },
+    "src/mitra_finetune/hooks.py": {
+      "bytes": 7845,
+      "sha256": "c957740ee9c758f981cc5796ad454b77715a8a4a14ca296e0fc9cb51c4ed2653"
+    },
+    "src/mitra_finetune/modes.py": {
+      "bytes": 2313,
+      "sha256": "3c0d0dc4e814cbd64049399627344be7f2069e92a3686251fcd307b8a5de6661"
+    },
+    "src/mitra_finetune/patches.py": {
+      "bytes": 49877,
+      "sha256": "863d41d1a8f5b93a57b219303b0ca54ef3ff698be15bb7f85dccb47fcbeeedfb"
+    },
+    "src/mitra_finetune/runner.py": {
+      "bytes": 53114,
+      "sha256": "fbf912da747348a549ad33a2f33fd75d5d0a1982eccc863bc616345d1d0d761e"
+    },
+    "src/mitra_finetune/speed.py": {
+      "bytes": 14116,
+      "sha256": "54f3b9cab7095da73324d15625ee45e5245f2eb95125299d189e819413896239"
+    }
+  },
+  "weight_repo": "autogluon/mitra-regressor-2",
+  "weight_revision": "246c7d310fff04296a2388df5f448e3ffe809283",
+  "weight_files": {
+    "model.safetensors": {
+      "bytes": 306776952,
+      "sha256": "8c90b8f281a793f9feb19f8fc3c5529c58ac844dd7ffc690a0fdbb96fae0967c"
+    },
+    "config.json": {
+      "bytes": 84,
+      "sha256": "f760c38c8884757f6141c1fd2e841e93a470be052dc5a4b489790097a002f0e6"
+    },
+    "README.md": {
+      "bytes": 5478,
+      "sha256": "d2591d905f7ff009162d72fb974e28f20661a63045b7a8ea5767e3972760734f"
+    }
+  }
+}

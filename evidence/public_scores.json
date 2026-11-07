@@ -1,0 +1,50 @@
+{
+  "metric": "Public RMSE (lower is better)",
+  "entries": [
+    {
+      "id": "initial_ensemble",
+      "label": "Handcrafted + ResNet + DINO-small",
+      "public_rmse": 12.8639,
+      "score_evidence": "Participant-reported platform score in project conversation; not independently verified leaderboard data.",
+      "submission_sha256": "525f8806085d001a2ee570db3dab97c1d5e9ba599b8d671ee5b8e5e309d84125"
+    },
+    {
+      "id": "tabpfn",
+      "label": "+ TabPFN-v2",
+      "public_rmse": 12.6138142537,
+      "score_evidence": "Participant-reported platform score in project conversation; not independently verified leaderboard data.",
+      "submission_sha256": "7548c628fc54df55ee90a8407bd6a5aa5386704a68c6cca25797fc7545982dcf"
+    },
+    {
+      "id": "scattering",
+      "label": "Scattering486",
+      "public_rmse": 12.60684582,
+      "score_evidence": "Participant-reported platform score in project conversation; not independently verified leaderboard data.",
+      "submission_sha256": "c3622568f205e511a1d3dd981722e51f9feebb805facdae1118cb041cc2cc739"
+    },
+    {
+      "id": "dinov2_large",
+      "label": "+ DINOv2-Large518",
+      "public_rmse": 12.3122263845,
+      "score_evidence": "Participant-reported platform score in project conversation; not independently verified leaderboard data.",
+      "submission_sha256": "2f78444be2e47b52939af9819546cedc960503c0e3761289041e5e4e8560b080"
+    },
+    {
+      "id": "cradio",
+      "label": "S:L:C = 50:25:25",
+      "public_rmse": 12.211256803,
+      "score_evidence": "Participant-reported platform score in project conversation; not independently verified leaderboard data.",
+      "submission_sha256": "f6a0cc5285ce04482dd848690367b91b4690c9e00be9fa98e2ed8e77118ca2d9"
+    },
+    {
+      "id": "d4",
+      "label": "D4 on Large and C-RADIO",
+      "public_rmse": 12.001743916,
+      "score_evidence": "Participant-reported platform score in project conversation; not independently verified leaderboard data.",
+      "submission_sha256": "27041a3c35ba5014e0166dfedef16efbb1d570f807f275db3e79f8018a713104"
+    }
+  ],
+  "relative_improvement": 0.0670213608625688,
+  "rank_or_award_claim": null,
+  "warning": "Public scores and local OOF scores evaluate different samples; do not compare them as one validation set."
+}

@@ -1,0 +1,26 @@
+# Publish source and aggregate evidence only.
+__pycache__/
+*.py[cod]
+.venv*/
+.deps*/
+.ml-deps/
+.task-tmp/
+.publication/
+open/
+models/
+reports/
+AutogluonModels/
+.env
+.env.*
+*.pem
+*.key
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.zip
+submission*.csv

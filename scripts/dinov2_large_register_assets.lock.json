@@ -1,0 +1,14 @@
+{
+  "repo": "timm/vit_large_patch14_reg4_dinov2.lvd142m",
+  "architecture": "vit_large_patch14_reg4_dinov2",
+  "revision": "f3c408e77602bb412aa65fb03dfa0d5f95cb3832",
+  "revision_date": "2025-01-21",
+  "model_release_date": "2023-10-30",
+  "license": "Apache-2.0",
+  "parameters": 304370688,
+  "files": {
+    "model.safetensors": {"bytes": 1217515128, "sha256": "c893d72294d4c327e631ff92f428dbc14c4f93cb5581b6c5f9d89bb5d17def27"},
+    "config.json": {"bytes": 619, "sha256": "63039941bb26f4fcf7eefba578a60a1bc3fc6d52b46420f75cc88b31da01ae42"},
+    "README.md": {"bytes": 4352, "sha256": "7d814e06b925da13fae92b02ce9b8b27e6248a27db58c73f437e28987a2bbb81"}
+  }
+}

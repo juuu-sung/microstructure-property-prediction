@@ -1,0 +1,27 @@
+{
+  "repo": "timm/vit_large_patch16_dinov3.lvd1689m",
+  "revision": "30c1109559f65dea34316b0d4842d35c5771fe11",
+  "public": true,
+  "gated": false,
+  "last_modified": "2025-09-24T22:44:00Z",
+  "files": {
+    "config.json": {
+      "bytes": 671,
+      "sha256": "a71f705b0074e173540d0bdbd3aa940fa8d7d3c6c7f020a683004c46ca605b24"
+    },
+    "README.md": {
+      "bytes": 7898,
+      "sha256": "952719599ab8c896ac9e0eadc53343a07f79d161e39dacdef6c4c08b69743e3f"
+    },
+    "LICENSE.md": {
+      "bytes": 7503,
+      "sha256": "25d122eb8f5b880fd23c736fb6ea8018ee45c12237e00b8a86d14c653904999e"
+    },
+    "model.safetensors": {
+      "bytes": 1212347640,
+      "sha256": "45172f209c9583c40538afc26b60a07033e6fcc2e8c30228338e6b2e932e7941"
+    }
+  },
+  "header_sha256": "035fb9231309ec7e3e5849f83c0ef16041f381f0f57f217f093dcf570bf1cb05",
+  "model": "vit_large_patch16_dinov3.lvd1689m"
+}

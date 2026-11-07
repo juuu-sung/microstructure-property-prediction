@@ -1,0 +1,10 @@
+Upstream: https://github.com/cszn/DPIR
+Revision: 15bca3fcc1f3cc51a1f99ccf027691e278c19354
+MIT License included in LICENSE.
+network_unet.py: only its basicblock import changed to a package-relative import.
+basicblock.py: unmodified upstream source.
+Official DRUNet grayscale weights: https://github.com/cszn/KAIR/releases/download/v1.0/drunet_gray.pth
+Observed release asset size: 130569961 bytes.
+Downloaded file SHA256: e27fb29456732c604c8ee3ac3e92ecadd2a7a4e36a8be675e92ebbf93a240de4
+This checksum was computed locally after official download, not supplied by the publisher.
+The denoiser weights are loaded with torch.load(weights_only=True) and strict state matching.

@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.md text eol=lf
+scripts/** -text
+tests/** -text
+requirements-*.txt -text
