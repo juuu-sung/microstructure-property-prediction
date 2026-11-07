@@ -1,5 +1,7 @@
 # Microstructure → Property Prediction
 
+[![Evidence and portable checks](https://github.com/juuu-sung/microstructure-property-prediction/actions/workflows/evidence.yml/badge.svg)](https://github.com/juuu-sung/microstructure-property-prediction/actions/workflows/evidence.yml)
+
 **500장의 합성 미세구조 이미지로 경도 대용값을 예측한 머신러닝 실험 프로젝트**
 
 적은 정답 데이터와 RTX 5060 8GB 환경에서 사전학습 표현·질감 특징·표 데이터 모델을 비교하고, 누출을 방지한 중첩 교차검증과 실패 사례 분석으로 최종 앙상블을 선택했습니다.
@@ -38,7 +40,7 @@ flowchart LR
 
 8방향 회전·반사 특징을 **영상 단위로 평균**합니다. 증강한 8장을 독립적인 정답 표본으로 취급하지 않습니다. 두 대형 인코더는 고정하고 Ridge를 학습하며, alpha 후보 100·1000·10000 중 학습 내부 검증으로 선택합니다. 최종 전체 500장 학습에서는 두 head 모두 alpha 1000이 선택됐습니다.
 
-Scattering486은 단일 모델의 이름이 아니라 기존 앙상블입니다. 최종 유효 가중치는 hand185 **6.25%**, ResNet18 **6.25%**, DINO-small D4 **12.5%**, TabPFN486 **25%**, DINO-Large D4 **25%**, C-RADIO D4 **25%**입니다. [구성 근거](evidence/final_model.json)
+Scattering486은 단일 모델의 이름이 아니라 기존 앙상블입니다. 최종 유효 가중치는 hand185 **6.25%**, ResNet18 **6.25%**, DINO-small D4 **12.5%**, TabPFN486 **25%**, DINO-Large D4 **25%**, C-RADIO D4 **25%** 비율로 구성됩니다. [구성 근거](evidence/final_model.json)
 
 ## 제출 점수 변화
 
