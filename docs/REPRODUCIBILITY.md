@@ -51,3 +51,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts/run_final_large_radi
 ## 포함하지 않은 파일
 
 원본 이미지·정답표·개별 OOF 예측·test 예측CSV·구조 주석·모델 가중치·가상환경·캐시·개인 Notion 문서는 포함하지 않는다. 공개 근거는 집계 통계와 출처 파일의 상대경로/SHA256으로 제한했다. 제3자 모델의 라이선스와 데이터 조건은 [출처 문서](ASSETS.md)를 참조한다.
+
+## 실행 시 신뢰 경계
+
+과거 ConvNeXt 실험의 [재개 코드](../scripts/convnext_experiment.py#L429)는 Python·NumPy 상태를 복원하기 위해 `torch.load(..., weights_only=False)`를 사용한다. 이 경로에는 **본인이 만든 신뢰할 수 있는 로컬 체크포인트만** 넣어야 한다. 파일 내부의 binding 검사는 역직렬화 후 실행되므로, 악의적인 pickle 파일을 안전하게 만드는 보안 장치가 아니다. 이 체크포인트는 공개 저장소에 포함하지 않는다.
+
+영상 검수 서버는 `127.0.0.1`에만 바인딩하며 로컬 데이터·주석을 다룬다. 호스트를 `0.0.0.0`으로 바꾸거나 터널로 외부에 공개하는 용도로 설계하지 않았다. 공개용 Git 작업 디렉터리에는 `open/`, `models/`, `reports/` 및 인증 파일을 복사하지 않는다. `.gitignore`는 이미 추적된 파일이나 과거 커밋에서 내용을 제거하지 않는다.

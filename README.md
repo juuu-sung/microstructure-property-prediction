@@ -8,6 +8,8 @@
 
 [프로젝트 사례](docs/CASE_STUDY.md) · [대표 코드 3곳](docs/CODE_TOUR.md) · [실험 결과](docs/EXPERIMENTS.md) · [재현 범위](docs/REPRODUCIBILITY.md)
 
+Built with PriorLabs-TabPFN — [공식 모델·라이선스](docs/ASSETS.md#tabpfn-출처-표시)
+
 ![6개 주요 제출의 Public RMSE: 12.8639에서 12.0017로 6.7% 감소](docs/assets/submission-history.png)
 
 Public은 참가자가 플랫폼에서 확인해 기록한 점수입니다. 아래 OOF와는 평가 표본이 다릅니다. [점수 기록·제출파일 해시](evidence/public_scores.json)
